@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13D4E143216EED3D005FE005 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13D4E142216EED3D005FE005 /* main.cpp */; };
+		13D4E14A216EED87005FE005 /* 多项式基本运算.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13D4E149216EED87005FE005 /* 多项式基本运算.cpp */; };
+		13D4E14C216EEDC2005FE005 /* 链表及其应用.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13D4E14B216EEDC2005FE005 /* 链表及其应用.cpp */; };
+		13D4E14E216EEDED005FE005 /* 顺序表及其应用.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13D4E14D216EEDED005FE005 /* 顺序表及其应用.cpp */; };
+		13D4E150216EEF29005FE005 /* 括号匹配.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13D4E14F216EEF29005FE005 /* 括号匹配.cpp */; };
+		13D4E152216EEF5B005FE005 /* 稀疏矩阵的压缩存储.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13D4E151216EEF5B005FE005 /* 稀疏矩阵的压缩存储.cpp */; };
+		13D4E154216EEF7D005FE005 /* 二叉树的链式存储.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13D4E153216EEF7D005FE005 /* 二叉树的链式存储.cpp */; };
+		13D4E156216EEFAA005FE005 /* 二叉树与表达式.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13D4E155216EEFAA005FE005 /* 二叉树与表达式.cpp */; };
+		13D4E158216EEFF5005FE005 /* 图的基本操作.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13D4E157216EEFF5005FE005 /* 图的基本操作.cpp */; };
+		13D4E15A216EF024005FE005 /* 排序算法练习.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13D4E159216EF024005FE005 /* 排序算法练习.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		13D4E13D216EED3D005FE005 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		13D4E13F216EED3D005FE005 /* DataSturture */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataSturture; sourceTree = BUILT_PRODUCTS_DIR; };
+		13D4E142216EED3D005FE005 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		13D4E149216EED87005FE005 /* 多项式基本运算.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "多项式基本运算.cpp"; sourceTree = "<group>"; };
+		13D4E14B216EEDC2005FE005 /* 链表及其应用.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "链表及其应用.cpp"; sourceTree = "<group>"; };
+		13D4E14D216EEDED005FE005 /* 顺序表及其应用.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "顺序表及其应用.cpp"; sourceTree = "<group>"; };
+		13D4E14F216EEF29005FE005 /* 括号匹配.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "括号匹配.cpp"; sourceTree = "<group>"; };
+		13D4E151216EEF5B005FE005 /* 稀疏矩阵的压缩存储.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "稀疏矩阵的压缩存储.cpp"; sourceTree = "<group>"; };
+		13D4E153216EEF7D005FE005 /* 二叉树的链式存储.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "二叉树的链式存储.cpp"; sourceTree = "<group>"; };
+		13D4E155216EEFAA005FE005 /* 二叉树与表达式.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "二叉树与表达式.cpp"; sourceTree = "<group>"; };
+		13D4E157216EEFF5005FE005 /* 图的基本操作.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "图的基本操作.cpp"; sourceTree = "<group>"; };
+		13D4E159216EF024005FE005 /* 排序算法练习.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "排序算法练习.cpp"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13D4E13C216EED3D005FE005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13D4E136216EED3D005FE005 = {
+			isa = PBXGroup;
+			children = (
+				13D4E141216EED3D005FE005 /* DataSturture */,
+				13D4E140216EED3D005FE005 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13D4E140216EED3D005FE005 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13D4E13F216EED3D005FE005 /* DataSturture */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13D4E141216EED3D005FE005 /* DataSturture */ = {
+			isa = PBXGroup;
+			children = (
+				13D4E142216EED3D005FE005 /* main.cpp */,
+				13D4E149216EED87005FE005 /* 多项式基本运算.cpp */,
+				13D4E14B216EEDC2005FE005 /* 链表及其应用.cpp */,
+				13D4E14F216EEF29005FE005 /* 括号匹配.cpp */,
+				13D4E151216EEF5B005FE005 /* 稀疏矩阵的压缩存储.cpp */,
+				13D4E14D216EEDED005FE005 /* 顺序表及其应用.cpp */,
+				13D4E155216EEFAA005FE005 /* 二叉树与表达式.cpp */,
+				13D4E157216EEFF5005FE005 /* 图的基本操作.cpp */,
+				13D4E159216EF024005FE005 /* 排序算法练习.cpp */,
+				13D4E153216EEF7D005FE005 /* 二叉树的链式存储.cpp */,
+			);
+			path = DataSturture;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13D4E13E216EED3D005FE005 /* DataSturture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13D4E146216EED3D005FE005 /* Build configuration list for PBXNativeTarget "DataSturture" */;
+			buildPhases = (
+				13D4E13B216EED3D005FE005 /* Sources */,
+				13D4E13C216EED3D005FE005 /* Frameworks */,
+				13D4E13D216EED3D005FE005 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataSturture;
+			productName = DataSturture;
+			productReference = 13D4E13F216EED3D005FE005 /* DataSturture */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13D4E137216EED3D005FE005 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "冯奕琦";
+				TargetAttributes = {
+					13D4E13E216EED3D005FE005 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 13D4E13A216EED3D005FE005 /* Build configuration list for PBXProject "DataSturture" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 13D4E136216EED3D005FE005;
+			productRefGroup = 13D4E140216EED3D005FE005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13D4E13E216EED3D005FE005 /* DataSturture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13D4E13B216EED3D005FE005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D4E154216EEF7D005FE005 /* 二叉树的链式存储.cpp in Sources */,
+				13D4E143216EED3D005FE005 /* main.cpp in Sources */,
+				13D4E14E216EEDED005FE005 /* 顺序表及其应用.cpp in Sources */,
+				13D4E15A216EF024005FE005 /* 排序算法练习.cpp in Sources */,
+				13D4E14A216EED87005FE005 /* 多项式基本运算.cpp in Sources */,
+				13D4E150216EEF29005FE005 /* 括号匹配.cpp in Sources */,
+				13D4E156216EEFAA005FE005 /* 二叉树与表达式.cpp in Sources */,
+				13D4E14C216EEDC2005FE005 /* 链表及其应用.cpp in Sources */,
+				13D4E158216EEFF5005FE005 /* 图的基本操作.cpp in Sources */,
+				13D4E152216EEF5B005FE005 /* 稀疏矩阵的压缩存储.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		13D4E144216EED3D005FE005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		13D4E145216EED3D005FE005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		13D4E147216EED3D005FE005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		13D4E148216EED3D005FE005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13D4E13A216EED3D005FE005 /* Build configuration list for PBXProject "DataSturture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13D4E144216EED3D005FE005 /* Debug */,
+				13D4E145216EED3D005FE005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13D4E146216EED3D005FE005 /* Build configuration list for PBXNativeTarget "DataSturture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13D4E147216EED3D005FE005 /* Debug */,
+				13D4E148216EED3D005FE005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13D4E137216EED3D005FE005 /* Project object */;
+}
